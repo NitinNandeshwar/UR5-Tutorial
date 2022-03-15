@@ -1,0 +1,13 @@
+Tutorial Link:
+ (1) Moveit Tutorial:
+ https://ros-planning.github.io/moveit_tutorials/
+ 
+ (2) Universal Robot Repository:
+ https://github.com/ros-industrial/universal_robot
+ 
+ (3) Pick & Place Example:
+ https://github.com/lihuang3/ur5_ROS-Gazebo 
+ 
+ (4) XML URDF Link:
+ http://wiki.ros.org/urdf/XML/link
+ 

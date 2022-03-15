@@ -1,0 +1,28 @@
+Steps to launch:
+Step(1):
+
+ 1473  cd catkin_ws_tutorial1
+ 1474  ls
+ 1475  cd src/
+ 1476  ls
+ 1477  git clone -b melodic-devel https://github.com/ros-industrial/universal_robot.git
+ 1479  cd ..
+ 1480  catkin_make
+ 1481  source devel/setup.bash
+ 1482  roslaunch ur_gazebo ur5.launch
+
+
+Step(2):
+Create own ur5 simulator packages to include table,camera or gripper other information
+
+ 1487  mkdir myur5sim
+ 1488  cd myur5sim/
+ 1489  ls
+ 1490  catkin_create_pkg myur5_description
+ 1491  cd myur5_description/
+ 1492  ls
+ 1493  mkdir urdf
+ 1494  ls
+ 1495  cd urdf/
+ 1496  touch myur5.urdf.xacro
+
